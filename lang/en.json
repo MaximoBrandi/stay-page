@@ -1,0 +1,488 @@
+{
+    "language":{
+        "name":"gb",
+        "lang":"en",
+        "fullname":"English",
+        "selector":{
+            "first":{
+                "name":"es",
+                "fullname":"Español",
+                "url":"/es"
+            },
+            "second":{
+                "name":"it",
+                "fullname":"Italiano",
+                "url":"/it"
+            }
+        },
+        "keywords":"control de asistencia laboral, control de asistencia, big data, data science, data analytics, control de asistencia de personal, Stay, digital, sistema informatico, sistema informatico asistencial, selfhosting, código abierto",
+        "description":"Stay, aplicación de control de asistencia digital. Asistencia digital, control de horarios, registro de empleados, gestión de equipos, análisis de productividad, eficiencia laboral, automatización de asistencia, monitoreo de empleados. Simplifica la gestión laboral con Stay."
+    },
+
+    "hero": {
+        "title": "Control your data",
+        "subtitle": "Stay is an application that allows you to monitor and manage the attendance and performance of your employees or students. Easy-To-Deploy big data and data science for your organization.",
+        "items": [
+            {
+                "title": "Recognition",
+                "subtitle": "Measure and analyze the performance, productivity, and satisfaction of employees objectively and accurately."
+            },
+            {
+                "title": "Information",
+                "subtitle": "Facilitate the processing, storage, and visualization of attendance in your organization, helping to identify patterns, trends, and improvement opportunities."
+            },
+            {
+                "title": "Decision",
+                "subtitle": "Foster evidence-based decision-making, resource optimization, and value generation for the organization and your employees."
+            }
+        ]
+    },
+    "item-1": {
+        "title": "The future is with Stay",
+        "subtitle-1": "Stay allows you to measure and analyze the attendance of your organization, identifying causes, effects, and solutions. With tools like big data, artificial intelligence, or machine learning, you can obtain valuable data and insights to improve the well-being, health, and engagement of your workers. As a result, you can reduce absenteeism, turnover, and associated costs.",
+        "subtitle-2": "Don't wait any longer and start implementing Stay in your organization. You will see how the work environment, work quality, and business results improve. The future is your ally in combating absenteeism!",
+        "article-title": "Security and Efficiency",
+        "article-subtitle": "Stay systems are tested and fast, easy to understand. They facilitate the entry and exit of your employees and automatically record the information."
+    },
+    "item-2": {
+        "title": "Development and Evolution",
+        "subtitle": "Stay is open-source, so anyone can iterate on evolutions and make it their own in their organization, while also knowing exactly what they are using. With Stay, you are assured of:",
+        "point-1": "A secure application using the latest technologies",
+        "point-2": "Simple interfaces and documentation",
+        "point-3": "Efficiency and speed in the system"
+    },
+    "contact": {
+        "title": "Stay in yourself",
+        "subtitle": "We can help you adapt Stay to your organization, and you can help Stay by developing and supporting new functionalities.",
+        "form": {
+            "title": "Stay can make a difference for you",
+            "subtitle": "Contact us, and we'll respond promptly.",
+            "full-name": "Full Name",
+            "message-title": "Message",
+            "message-placeholder": "Type a message...",
+            "send": "Send Message"
+        }
+    },
+    "footer": {
+        "title": "Let's keep in touch",
+        "subtitle": "Find Stay on the following platforms and stay updated with us."
+    },
+
+    "navigation": {
+        "Despliegue Rapido": "Fast Deployment",
+        "Requisitos": "Requirements",
+        "Instalacion": "Installation",
+        "Concideraciones": "Considerations",
+        "Caracteristicas": "Features",
+        "Estadisticas": "Statistics",
+        "Presentismo y retiros": "Attendance and Departures",
+        "Exportar": "Export",
+        "Roles": "Roles",
+        "Importar": "Import",
+        "Equipos": "Teams",
+        "Presentismos": "Attendances",
+        "Retiros": "Departures",
+        "Feriados": "Holidays",
+        "Estaciones de escaneo": "Scan Stations",
+        "Miembros": "Members",
+        "Errores": "Errors",
+        "400": "400",
+        "401-403": "401-403",
+        "404": "404",
+        "405": "405",
+        "409": "409",
+        "500": "500",
+        "503": "503",
+        "Actualizaciones": "Updates",
+        "Notas de cambio": "Changelog",
+        "Guia de actualizacion": "Update Guide"
+    },
+    "header": {
+        "download": "Download"
+    },
+    "section-1": {
+        "deploy": {
+            "heading": "Fast Deployment",
+            "updated-heading": "Last updated",
+            "updated": "2023-07-30"
+        },
+        "docs-intro": {
+            "p1": "Stay is an innovative system that allows organizations to efficiently and securely manage employee attendance. Developed with Laravel Jetstream, a robust and flexible platform offering authentication, authorization, team management, and other essential features, Stay facilitates the registration of employee entries and exits, as well as the tracking of working hours, absences, and leaves.",
+            "p2": "Furthermore, Stay includes a statistical analysis module that enables valuable insights into organization performance, productivity, and work environment, generating automatic and personalized reports. With Stay, organizations can optimize their human resources, improve internal communication, and foster a culture of commitment and responsibility."
+        },
+        "item-1-1": {
+            "h2": "Requirements",
+            "h5-1": "Server",
+            "p1-1": "Stay is optimized to function as a subdomain application and can run correctly on any server under a subdomain. A relatively recent server such as Dell G5 55XX, HP DL3XX G5, or IBM M2 with SSD or NVME storage is recommended.",
+            "p2-1": "Any VPS with a minimum of 1GB of RAM and 1 core is sufficient, though SSD storage is recommended.",
+            "p3-1": "The server must have internet access, and it is recommended to run it as a regular web application on a private subdomain of the organization.",
+            "h5-2": "Scan Points",
+            "p1-2": "Scan points require minimal computing power, and the camera does not need to be overly complex. An Intel n3350 or even lower with 2GB of RAM should suffice. It is recommended to run some RHEL or Debian distribution.",
+            "h5-3": "Security",
+            "p1-3": "It is recommended to follow the basic guidelines when deploying an application in Laravel, such as designating the ",
+            "a": "privileges correctly",
+            "p-coso": "among other elements related to the DNS in use."
+        },
+        "item-1-2": {
+            "h2": "Installation",
+            "p1-1": "Currently, Stay is in the earliest stage of development, so it is recommended to deploy it only by people with experience in web server applications, PHP, and Node applications.",
+            "p2-1": "In the near future, applications or procedures will be provided to automatically deploy the application's backend, targeting a more general and less experienced audience.",
+            "warning": "Warning",
+            "info": "Note",
+            "callout-block-warning": "No Stay developer takes responsibility for leaks in case of a faulty installation. The base of Stay, Laravel Jetstream, is a secure ecosystem, but if deployed on a server with vulnerabilities or backdoors, leaks can occur despite the application's security measures.",
+            "callout-block-info": "You need to have Mysql, Apache, PHP, Composer, Node, and the requirements of",
+            "p-cloning": "First, start by cloning the Stay repository",
+            "pre-code": "git clone https://github.com/MaximoBrandi/stay\ncd stay",
+            "h5": "Deployment on RHEL systems:",
+            "p1-2-1": "Stay provides a bash code for RHEL systems:",
+            "p1-2-2": "It will prompt the user for information and request certain data for the .env. Specifically, it will be necessary to fill/change the following parameters (Not in order):",
+            "pre-code-2": "APP_USER=\nAPP_URL=http://localhost\n\n// Basic application information, such as the company name and the URL under which the application will be hosted.\n\nDB_CONNECTION=mysql\nDB_HOST=127.0.0.1\nDB_PORT=3306\nDB_DATABASE=laravel\nDB_USERNAME=root\nDB_PASSWORD=1234\n\n// Database information for the application\n\nAPP_TIMEZONE=''\n\n// The time zone under which the application will operate, see https://www.php.net/manual/es/timezones.php\n\nMAIL_MAILER=smtp\nMAIL_HOST=\nMAIL_PORT=\nMAIL_USERNAME=email@domain.com\nMAIL_PASSWORD=\nMAIL_ENCRYPTION=\nMAIL_FROM_ADDRESS=\"email@domain.com\"\nMAIL_FROM_NAME=\"${APP_USER} - ${APP_NAME}\"\n\n// Important for email sending",
+            "p2-2-1": "Once the deployment is done, the following command must also be executed:",
+            "p2-2-2": "After this, the application will be up and running.",
+            "p3-1-1": "You will find this screen where you have to enter your username ",
+            "p3-1-2": "and password",
+            "p4": "Next, Stay will ask you to change the password and add a second factor of authentication, such as Google Auth (You may need to refresh the page or log in again).",
+            "p5": "Now you can enter the primary data of the application. Download the example Excel and enter the data from all the sheets, and then you can add more, but first, you need to add the base data following the exact format dictated in the downloaded file.",
+            "p6": "The file picker will only appear the second time it is opened. Be sure to follow the template correctly. We recommend importing it to Google Sheets and downloading it in xlsx format.",
+            "p7": "Done! You will now be on the intern page.",
+            "important": "Important",
+            "important-note": "When the page to add a second factor of authentication appears, reload the page first, and it is important to then save the backup codes, although you can regenerate them if you lose them. After registering the second factor of authentication, return to the home page."
+        },
+        "item-1-5": {
+            "h1": "Considerations",
+            "table": [
+                {
+                    "reference": "aspects",
+                    "title": "Operation",
+                    "description": "Analyze the operation of the application in general."
+                },
+                {
+                    "reference": "item-2-5",
+                    "title": "Holidays",
+                    "description": "Import national holidays as well as periods of non-working days."
+                },
+                {
+                    "reference": "item-2-6",
+                    "title": "Scan Stations",
+                    "description": "Import attendance and departure scan stations."
+                },
+                {
+                    "reference": "item-1-3",
+                    "title": "Statistics",
+                    "description": "Analyze statistics of imported attendance."
+                }
+            ]
+        }
+    },
+    "aspects": {
+        "heading": "Features",
+        "section-intro": "Below are some main features of Stay in general.",
+        "item-1-3": {
+            "heading": "Statistics",
+            "description": "The current statistics are explained below.",
+            "note-heading": "Note",
+            "note": "Certain statistics may not work correctly until all users have given at least one attendance or departure, among other database requirements.",
+            "stats-heading": "Individual Statistics:",
+            "individual-stats": [
+                {
+                    "title": "Present",
+                    "description": "The number of attendances given by the individual in question."
+                },
+                {
+                    "title": "Late Attendances",
+                    "description": "The number of attendances given by the individual outside of regular working hours."
+                },
+                {
+                    "title": "Absences",
+                    "description": "The number of absences of the individual in question."
+                },
+                {
+                    "title": "Late and Absent Attendances",
+                    "description": "The number of attendances given by the individual outside of regular working hours and beyond the late limit."
+                },
+                {
+                    "title": "Departures",
+                    "description": "The number of departures given by the individual in question."
+                }
+            ],
+            "divison-heading": "Division Statistics:",
+            "division-stats": [
+                {
+                    "title": "Average Absence",
+                    "description": "Average absence per working day in the division."
+                },
+                {
+                    "title": "Weekly Average of Departures",
+                    "description": "The weekly average of departures per division."
+                },
+                {
+                    "title": "Day with Most Absences",
+                    "description": "The day with the highest average absences in the entire division."
+                },
+                {
+                    "title": "Individuals Near Limit",
+                    "description": "Individuals close to the absence limit (25)."
+                }
+            ]
+        },
+        "item-1-4": {
+            "heading": "Attendance and Departures",
+            "description": "The current way of giving attendance or departing is through QR codes, as long as the current user's schedule using Stay is between the opening and closing hours of the working day, they can both enter and depart. Both supervisors and scan stations can scan the QR codes.",
+            "member-heading": "Member's View:",
+            "member-vision": [
+                {
+                    "img": "/assets/images/Presentism.avif",
+                    "title": "Stay presentism member page"
+                },
+                {
+                    "img": "/assets/images/Absentism.avif",
+                    "title": "Stay absentism member page"
+                }
+            ],
+            "supervisor-heading": "Supervisor's View and Scan Station:",
+            "supervisor-vision": [
+                {
+                    "img": "/assets/images/Attendance.avif",
+                    "title": "Stay attendance supervisor page"
+                },
+                {
+                    "img": "/assets/images/ScanStation.avif",
+                    "title": "Stay scan station page"
+                }
+            ]
+        },
+        "item-9-2": {
+            "heading": "Export",
+            "description": "Stay allows various types of exports, and below are all the different types.",
+            "actions-heading": "From the 'actions' tab (Accountant)",
+            "from-actions-tab": [
+                {
+                    "title": "Divisions",
+                    "description": "Export entire divisions with the specified data in the division import section. You can select one or all existing divisions in the database."
+                },
+                {
+                    "title": "Members",
+                    "description": "Export specific members, being able to export only user information or along with their departures and attendances."
+                },
+                {
+                    "title": "Supervisors",
+                    "description": "Export user information for specific supervisors."
+                },
+                {
+                    "title": "Attendance",
+                    "description": "Export the attendance of specific courses."
+                },
+                {
+                    "title": "Departures",
+                    "description": "Export the departures of specific courses."
+                },
+                {
+                    "title": "Holidays",
+                    "description": "Export existing holidays in the database."
+                }
+            ],
+            "tables-heading": "General (Database Tables)",
+            "general-database-tables": [
+                {
+                    "title": "Members",
+                    "description": "In the tables showing the members, you can export the basic information of the members of a certain division."
+                },
+                {
+                    "title": "Attendance",
+                    "description": "In the tables showing the attendance of a certain division, you can export the information of these attendances, with the possibility of filtering by certain members."
+                },
+                {
+                    "title": "Departures",
+                    "description": "In the tables showing the departures of a certain division, you can export the information of these departures, with the possibility of filtering by certain members."
+                }
+            ]
+        },
+        "item-9-3": {
+            "heading": "Roles",
+            "description": "Primarily, roles are still users within the application, so they share certain things, such as being able to modify their own name, email, or password, while also requiring a second factor of authentication to function. This is to enhance system security.",
+            "roles-description": "In Stay, there are several roles, each with different functionalities or different capabilities/privileges. These roles are:",
+            "roles": [
+                {
+                    "title": "Members",
+                    "description": "Members are all those who give or receive attendance. They can generate QR codes to give attendance or depart, in addition to basic abilities.",
+                    "vision": [
+                        {
+                            "img": "/assets/images/Presentism.avif",
+                            "title": "Stay member presentism page"
+                        }
+                    ]
+                },
+                {
+                    "title": "Supervisor",
+                    "description": "Supervisors have the ability to analyze and act on the teams or divisions assigned to them. They can scan member codes, view daily statistics, access the database of their assigned division, and export members, attendance, or departures of these members. They can also switch between divisions to view statistics given in the database preview.",
+                    "vision": [
+                        {
+                            "img": "/assets/images/SupervisorDashboard.avif",
+                            "title": "Stay supervisor dashboard page"
+                        },
+                        {
+                            "img": "/assets/images/Attendance.avif",
+                            "title": "Stay attendance supervisor page"
+                        },
+                        {
+                            "img": "/assets/images/SupervisorDatabase.avif",
+                            "title": "Stay supervisor database page"
+                        }
+                    ],
+                    "note-heading": "Note",
+                    "note": "Supervisors cannot modify divisions, this is an action that only accountants can perform."
+                },
+                {
+                    "title": "Accountant",
+                    "description": "Accountants are the main role in Stay and are granted (for now) only once when deploying the application for the first time. They are responsible for entering the divisions, members, supervisors, attendance, departures, holidays, scan stations, and other data. They can also modify all the information in the database, supervise all divisions, and export database information.",
+                    "vision": [
+                        {
+                            "img": "/assets/images/AccountantDatabase.avif",
+                            "title": "Stay accountant database page"
+                        },
+                        {
+                            "img": "/assets/images/AccountantImports.avif",
+                            "title": "Stay accountant imports page"
+                        },
+                        {
+                            "img": "/assets/images/AccountantExports.avif",
+                            "title": "Stay accountant exports page"
+                        },
+                        {
+                            "img": "/assets/images/DivisionSettings.avif",
+                            "title": "Stay division settings page"
+                        },
+                        {
+                            "img": "/assets/images/ScanPage.avif",
+                            "title": "Stay accountant scan stations page"
+                        }
+                    ]
+                },
+                {
+                    "title": "Scan Station",
+                    "description": "Scan stations are only responsible for scanning QR codes. They only display the camera in use and the last attendances (presentism).",
+                    "vision": [
+                        {
+                            "img": "/assets/images/ScanStation.avif",
+                            "title": "Stay scan station page"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "import": {
+        "heading": "Import",
+        "table": [
+            {
+                "title": "Teams",
+                "description": "Import complete teams and users along with schedules and attendances/departures."
+            },
+            {
+                "title": "Attendances",
+                "description": "Import the number of attendances given by the individual outside of regular working hours."
+            },
+            {
+                "title": "Departures",
+                "description": "Import the number of departures of the individual in question."
+            },
+            {
+                "title": "Holidays",
+                "description": "Import national holidays as well as periods of non-working days."
+            },
+            {
+                "title": "Scan Stations",
+                "description": "Import the number of attendances given by the individual outside of regular working hours."
+            },
+            {
+                "title": "Members",
+                "description": "Import the number of attendances given by the individual outside of regular working hours."
+            }
+        ],
+        "format-info": "You can import various elements of Stay. Below is the import format. It must be in .xsls excel format. It is recommended to import as many elements as possible and follow the format exactly.",
+        "note-1": {
+            "title": "Note",
+            "content": "It is very important to respect the order and format. Importations that require several sheets with specific names need to have the non-obligatory sheets even if they are empty. Being empty will not import unnecessary elements, and the program will work."
+        },
+        "note-2": {
+            "title": "Note",
+            "content": "Remember to check all assigned IDs; they must not coincide with any current ID in the database, or Stay will end up modifying the database, which we do not want to happen."
+        },
+        "important-formats": "Important Formats",
+        "division": {
+            "heading": "Import Teams",
+            "description": "To import teams, you need 6 sheets per excel file:",
+            "preceptors": "'Preceptors' (Supervisors):",
+            "courses": "'Courses' (Teams):",
+            "students": "'Students' (Members):",
+            "attendances": "'Attendances' (Presentism):",
+            "retirements": "'Retirements' (Departures):",
+            "schedules": "'Schedules' (Schedules):"
+        },
+        "presentism": {
+            "heading": "Import Attendances",
+            "description": "To import attendances, only the following excel sheet is needed:"
+        },
+        "retirements": {
+            "heading": "Import Departures",
+            "description": "To import departures, only the following excel sheet is needed:"
+        },
+        "holidays": {
+            "heading": "Import Holidays",
+            "description": "To import holidays, only the following excel sheet is needed:",
+            "holidays": "'Holidays' (Holidays):"
+        },
+        "scan-station": {
+            "heading": "Import Scan Stations",
+            "description": "To import scan points teams, only the following excel sheet is needed: ",
+            "scan-station": "'Students':"
+        },
+        "members": {
+            "heading": "Import Members",
+            "description": "To import members, only the following excel sheet is needed: "
+        }
+    },
+    "errors": {
+        "errors": "Errors",
+        "warning": "Warning",
+        "warning-content": "If the error persists despite following the recommendations in this section, contact the email 'contact@stay.com.ar' with the error in the subject, and we will respond as soon as possible. Stay is an application in development, and occasional errors may occur.",
+        "400-heading": "400 - Bad request",
+        "400-1": "Try to redo the action",
+        "400-2": "Check the URL to which the action is directing",
+        "400-3": "Check that you are not leaving any data without entering",
+        "400-4": "Check your internet connection",
+        "401-403-heading": "401 - Unauthorized / 403 - Forbidden",
+        "401-403-1": "Check that you are authorized to perform the action",
+        "401-403-2": "Check that the session is properly started; otherwise, log out and log back into Stay",
+        "404-heading": "404 - Not Found",
+        "404-1": "The URL you are accessing does not exist",
+        "404-2": "Try going back to the home page (re-enter the application) and try again",
+        "404-3": "If the error persists, contact 'contact@stay.com.ar'",
+        "405-heading": "405 - Method Not Allowed",
+        "405-1": "The method you are trying to use is not allowed for the specific URL",
+        "405-2": "Make sure you are using the correct method for the action",
+        "409-heading": "429 - Too Many Requests",
+        "409-1": "You are sending too many requests at once",
+        "409-2": "Please, try again later",
+        "409-3": "If the problem persists, contact 'contact@stay.com.ar'",
+        "500-heading": "500 - Internal Server Error",
+        "500-1": "Try to redo the action, as the error could have been temporary",
+        "500-2": "Check your internet connection",
+        "500-3": "If the error persists, contact 'contact@stay.com.ar'",
+        "503-heading": "503 - Service Unavailable",
+        "503-1": "The server is not available for the moment, please try again later",
+        "503-2": "If the error persists, contact 'contact@stay.com.ar'"
+    },
+    "updates": {
+        "header": "Updates",
+        "description": "Here you will find the changelog of each Stay update and the application update guide.",
+        "changes": {
+            "header": "Changelog",
+            "description": "1.0.0: Launch version 🏂"
+        },
+        "guide": {
+            "header": "Update Guide",
+            "description": "👀✨"
+        }
+    }
+}

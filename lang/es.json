@@ -1,0 +1,481 @@
+{
+    "language":{
+        "name":"es",
+        "lang":"es",
+        "fullname":"Español",
+        "selector":{
+            "first":{
+                "name":"gb",
+                "fullname":"English",
+                "url":"/en"
+            },
+            "second":{
+                "name":"it",
+                "fullname":"Italiano",
+                "url":"/it"
+            }
+        },
+        "keywords":"larn, gestor, repositorios, páginas web, offline, documentaciones, frameworks, lenguajes de programación, visualización, offline, sin internet, Blinke, plataformas, selfhostear, código abierto",
+        "description":"Larn es una aplicación de código abierto que proponemos permite gestionar repositorios de páginas web descargadas para su visualización sin conexión a Internet, especialmente diseñada para documentación de lenguajes de programación y frameworks. La aplicación es compatible con múltiples plataformas y ofrece la opción de selfhosting."
+    },
+
+    "hero": {
+        "title":"Controla la informacion",
+        "subtitle":"Stay es una aplicación que te permite monitorear y gestionar la asistencia y el rendimiento de tus empleados o estudiantes. Big data y data science al alcance de tu organización.",
+        "items":[
+            {
+                "title":"Reconocimiento",
+                "subtitle":"Mide y analiza el rendimiento, la productividad y la satisfacción de los empleados de forma objetiva y precisa."
+            },{
+                "title":"Informacion",
+                "subtitle":"Facilita el procesamiento, el almacenamiento y la visualización del presentismo en tu organizacion, lo que ayuda a identificar patrones, tendencias y oportunidades de mejora."
+            },{
+                "title":"Decision",
+                "subtitle":"Favorece la toma de decisiones basada en evidencia, la optimización de recursos y la generación de valor para la organización y tus empleados."
+            }
+        ]
+    },
+    "item-1": {
+        "title":"El futuro es con Stay",
+        "subtitle-1":"Stay te permite medir y analizar el presentismo de tu organización, identificando causas, efectos y soluciones. Con herramientas como el big data, la inteligencia artificial o el machine learning, puedes obtener datos e insights valiosos para mejorar el bienestar, la salud y el compromiso de tus trabajadores. Así, podrás reducir el absentismo, el turnover y los costes asociados a estos.",
+        "subtitle-2":"No esperes más y empieza a implantar la Stay en tu organización. Verás cómo mejora el clima laboral, la calidad del trabajo y los resultados de tu negocio. ¡El futuro es tu aliados para combatir el absentismo!",
+        "article-title":"Seguridad y eficiencia",
+        "article-subtitle":"Los sistemas de Stay estan probados y son rapidos, faciles de entender. Facilitan el ingreso y egreso de tus empleados al igual que registran automaticamente la informacion."
+    },
+    "item-2": {
+        "title":"Desarrollo y evolucion",
+        "subtitle":"Stay es codigo abierto, por lo que cualquiera puede iterar evoluciones al igual que eres libre de hacerlo tuyo en tu organizacion, al mismo tiempo puedes saber a ciencia cierta lo que utilizas. \n\n Con Stay tienes asegurado:",
+        "point-1":"Una aplicacion segura utilizando las ultimas tecnologias",
+        "point-2":"Interfaces y documentaciones simples",
+        "point-3":"Eficiencia y rapidez en el sistema"
+    },
+    "contact":{
+        "title":"Haz de ti Stay",
+        "subtitle":"Podemos ayudarte a adaptar Stay a tu organizacion, al igual que puedes ayudar a Stay desarrollando y apoyando nuevas funcionalidades.",
+        "form":{
+            "title":"Stay puede diferenciarte",
+            "subtitle":"Contactanos y te responderemos en la brevedad",
+            "full-name":"Nombre completo",
+            "message-title":"Mensaje",
+            "message-placeholder":"Escribe un mensaje...",
+            "send":"Enviar"
+        }
+    },
+    "footer":{
+        "title":"Sigamos conociendonos",
+        "subtitle":"Encuentra a Stay en las siguientes plataformas y mantente al tanto de nosotros."
+    },
+
+    "navigation": {
+        "Despliegue Rapido": "Despliegue Rápido",
+        "Requisitos": "Requisitos",
+        "Instalacion": "Instalación",
+        "Concideraciones": "Consideraciones",
+        "Caracteristicas": "Características",
+        "Estadisticas": "Estadísticas",
+        "Presentismo y retiros": "Presentismo y Retiros",
+        "Exportar": "Exportar",
+        "Roles": "Roles",
+        "Importar": "Importar",
+        "Equipos": "Equipos",
+        "Presentismos": "Presentismos",
+        "Retiros": "Retiros",
+        "Feriados": "Feriados",
+        "Estaciones de escaneo": "Estaciones de Escaneo",
+        "Miembros": "Miembros",
+        "Errores": "Errores",
+        "400": "400",
+        "401-403": "401-403",
+        "404": "404",
+        "405": "405",
+        "409": "409",
+        "500": "500",
+        "503": "503",
+        "Actualizaciones": "Actualizaciones",
+        "Notas de cambio": "Notas de Cambio",
+        "Guia de actualizacion": "Guía de Actualización"
+    },
+    "header": {
+        "download": "Descargar"
+    },
+    "section-1": {
+        "deploy": {
+            "heading": "Despliegue rapido",
+            "updated-heading": "Last updated",
+            "updated": "2023-07-30"
+        },
+        "docs-intro": {
+            "p1": "Stay es un sistema innovador que permite a las organizaciones gestionar el presentismo de sus empleados de forma eficiente y segura. Desarrollado con Laravel Jetstream, una plataforma robusta y flexible que ofrece autenticación, autorización, gestión de equipos y otras funcionalidades esenciales, Stay facilita el registro de las entradas y salidas de los trabajadores, así como el control de las horas trabajadas, las ausencias y los permisos.",
+            "p2": "Además, Stay cuenta con un módulo de análisis estadístico que permite extraer información valiosa sobre el rendimiento, la productividad y el clima laboral de la organización, generando reportes automáticos y personalizados. Con Stay, las organizaciones pueden optimizar sus recursos humanos, mejorar la comunicación interna y fomentar una cultura de compromiso y responsabilidad."
+        },
+        "item-1-1": {
+            "h2": "Requisitos",
+            "h5-1": "Servidor",
+            "p1-1": "Stay está optimizado para poder funcionar como aplicación secundaria, por lo que podrá ejecutar correctamente en cualquier servidor bajo algún subdominio. Se recomienda como mínimo un servidor relativamente reciente como servidores Dell G5 55XX, HP DL3XX G5 o IBM M2 con almacenamiento en SSD o NVME.",
+            "p2-1": "Cualquier VPS con un mínimo de 1GB de RAM y 1 núcleo es suficiente, aunque es recomendado que tenga almacenamiento SSD.",
+            "p3-1": "Es importante que el servidor tenga acceso a la internet, se recomienda que se ejecute como cualquier otra aplicación web en algún subdominio privado de la organización.",
+            "h5-2": "Puntos de escaneo",
+            "p1-2": "No requieren casi ningún tipo de cómputo, al mismo tiempo que la cámara no tiene por qué ser demasiado compleja. Un Intel n3350 o incluso inferiores con 2GB de RAM debería ser suficiente, se recomienda ejecutar algún tipo de distribución RHEL o Debian.",
+            "h5-3": "Seguridad",
+            "p1-3": "Se recomienda seguir las directrices básicas a la hora de desplegar una aplicación en Laravel, como por ejemplo designar los ",
+            "a": "privilegios correctamente",
+            "p-coso": "entre otros elementos relacionados con el DNS en uso."
+        },
+        "item-1-2": {
+            "h2": "Instalación",
+            "p1-1": "Actualmente Stay está en la etapa más temprana de desarrollo, se recomienda desplegar solo por personas con un mínimo de experiencia en aplicaciones en servidores web, aplicaciones de PHP y Node.",
+            "p2-1": "En un futuro cercano se facilitarán aplicaciones o procedimientos para desplegar de forma automática el backend de la aplicación enfocado en un público más general y no experimentado.",
+            "warning": "Advertencia",
+            "info": "Nota",
+            "callout-block-warning": "Ningún desarrollador de Stay se hace responsable de filtraciones en caso de demostrarse una mala instalación. La base de Stay, Laravel Jetstream es un ecosistema seguro, pero en caso de desplegarse en un servidor con vulnerabilidades o backdoors lo inevitable es inevitable aun con toda la seguridad del lado de la aplicación posible.",
+            "callout-block-info": "Es necesario tener instalado Mysql, apache, php, composer, node y los requisitos de",
+            "p-cloning": "Primero que nada comienza clonando el repositorio de Stay",
+            "pre-code": "git clone https://github.com/MaximoBrandi/stay\ncd stay",
+            "h5": "Despliegue en sistemas RHEL:",
+            "p1-2-1": "Stay facilita un código bash en ecosistemas RHEL: ",
+            "p1-2-2": "Preguntará información al usuario y solicitará cierta información para el .env. Específicamente será necesario rellenar/cambiar los siguientes parámetros (No están en orden):",
+            "pre-code-2": "APP_USER=\nAPP_URL=http://localhost\n\n// Información básica de la aplicación, como el nombre de la empresa y la URL bajo la que estará alojada la aplicación.\n\nDB_CONNECTION=mysql\nDB_HOST=127.0.0.1\nDB_PORT=3306\nDB_DATABASE=laravel\nDB_USERNAME=root\nDB_PASSWORD=1234\n\n// La información de la base de datos bajo la que estará la aplicación\n\nAPP_TIMEZONE=''\n\n// La zona horaria bajo la que estará la aplicación, véanse en https://www.php.net/manual/es/timezones.php\n\nMAIL_MAILER=smtp\nMAIL_HOST=\nMAIL_PORT=\nMAIL_USERNAME=email@domain.com\nMAIL_PASSWORD=\nMAIL_ENCRYPTION=\nMAIL_FROM_ADDRESS=\"email@domain.com\"\nMAIL_FROM_NAME=\"${APP_USER} - ${APP_NAME}\"\n\n// Es importante para el envío de emails",
+            "p2-2-1": "Una vez hecho el despliegue se tendrá que ejecutar también ",
+            "p2-2-2": ", posterior a esto estará la aplicación ejecutándose y funcionando.",
+            "p3-1-1": "Encontrarás esta pantalla, en la que tendrás que ingresar como usuario ",
+            "p3-1-2": "y contraseña",
+            "p4": "A continuación Stay te pedirá cambiar la contraseña y agregar un segundo factor de autenticación, como por ejemplo Google Auth (Puede que necesites recargar la página o volver a iniciar sesión)",
+            "p5": "Ahora podrás ingresar los datos primarios de la aplicación, descarga el excel de ejemplo y ingresa los datos de todas las hojas, luego podrás agregar más, pero primero es necesario agregar los base siguiendo el formato exacto dictado en el archivo descargado.",
+            "p6": "El selector de archivos solo lo hará la segunda vez que se abra, recuerda seguir correctamente la plantilla, recomendamos importarla a google sheets y descargarla en xlsx.",
+            "p7": "Listo! ya estarás en la página de inicio del becario",
+            "important": "importante",
+            "important-note": "Cuanto te aparezca la pagina para agregar un segundo factor de autenticacion, recarga la pagina antes, y es importante luego guardar los codigos de respaldo, aunque luego podras regenerarlos en caso de perderlos. Luego de registrar el segundo factor de autenticacion vuelve a la pagina de inicio."
+        },
+        "item-1-5": {
+            "h1": "Consideraciones",
+            "table": [
+                {
+                    "reference": "aspects",
+                    "title": "Funcionamiento",
+                    "description": "Analizar el funcionamiento de la aplicación de forma general."
+                },
+                {
+                    "reference": "item-2-5",
+                    "title": "Feriados",
+                    "description": "Importar los feriados tanto nacionales como periodos de no trabajo."
+                },
+                {
+                    "reference": "item-2-6",
+                    "title": "Estaciones de escaneo",
+                    "description": "Importar estaciones de escaneo de presentismo y retiro."
+                },
+                {
+                    "reference": "item-1-3",
+                    "title": "Estadisticas",
+                    "description": "Analizar las estadísticas del presentismo importado."
+                }
+            ]
+        }
+    },
+    "aspects": {
+        "heading": "Caracteristicas",
+        "section-intro": "A continuacion veras de forma general ciertas caracteristicas principales de Stay.",
+        "item-1-3": {
+            "heading": "Estadisticas",
+            "description": "A continuacion se explicaran las estadisticas actuales",
+            "note-heading": "Nota",
+            "note": "Es posible que ciertas estadisticas no funcionen correctamente hasta que todos los usuarios hayan dado almenos un presentismo o retiro, entre otros requisitos de la base de datos.",
+            "stats-heading": "Estadisticas individuales:",
+            "individual-stats": [
+                {
+                    "title": "Presente",
+                    "description": "La cantidad de presentismos dados por el individuo en cuestion"
+                },
+                {
+                    "title": "Tardes",
+                    "description": "La cantidad de presentismos dados por el individuo fuera del horario regular"
+                },
+                {
+                    "title": "Ausentes",
+                    "description": "La cantidad de ausentismos del individuo en cuestion"
+                },
+                {
+                    "title": "Presentes ausentes",
+                    "description": "La cantidad de presentismos dados por el individuo fuera del horario regular y del limite tardio"
+                },
+                {
+                    "title": "Retiros",
+                    "description": "La cantidad de retiros dados por el individuo en cuestion"
+                }
+            ],
+            "divison-heading": "Estadisticas de division:",
+            "division-stats": [
+                {
+                    "title": "Promedio de ausentismo",
+                    "description": "Promedio de ausentismo por jornada laboral en la division"
+                },
+                {
+                    "title": "Promedio semanal de retiros",
+                    "description": "El promedio semanal de retiros por division"
+                },
+                {
+                    "title": "Dia con mas ausentismo",
+                    "description": "El dia con en promedio mas ausentismos en toda la division"
+                },
+                {
+                    "title": "Individuos cerca del limite",
+                    "description": "Individuos cercanos al ausentismo limite (25)"
+                }
+            ]
+        },
+        "item-1-4": {
+            "heading": "Presentismo y retiros",
+            "description": "La actual forma de dar presentismo o retirarse es mediante codigos QR, siempre y cuando el horario horario actual del usuario a ingresar o egresar utilizando Stay este entre el horario de apertura y el horario de fin de jornada podra tanto ingresar como retirarse. Los codigos QR podra escanearlos tanto un supervisor como un punto de escaneo.",
+            "member-heading": "Vision del miembro:",
+            "member-vision": [
+                {
+                    "img": "/assets/images/Presentism.avif",
+                    "title": "Stay presentism member page"
+                },
+                {
+                    "img": "/assets/images/Absentism.avif",
+                    "title": "Stay absentism member page"
+                }
+            ],
+            "supervisor-heading": "Vision del supervisor y estacion de escaneo:",
+            "supervisor-vision": [
+                {
+                    "img": "/assets/images/Attendance.avif",
+                    "title": "Stay attendance supervisor page"
+                },
+                {
+                    "img": "/assets/images/ScanStation.avif",
+                    "title": "Stay scan station page"
+                }
+            ]
+        },
+        "item-9-2": {
+            "heading": "Exportar",
+            "description": "En Stay se pueden realizar diversos tipos de exportaciones, a continuacion se muestran todos los tipos diferentes",
+            "actions-heading": "Desde la pestaña 'acciones' (Becario)",
+            "from-actions-tab": [
+                {
+                    "title": "Divisones",
+                    "description": "Exporta divisiones enteros con los datos especificados en la seccion de importar divisones, se pueden seleccionar uno o todas las divisiones existentes en la base de datos."
+                },
+                {
+                    "title": "Miembros",
+                    "description": "Exporta miembros especificos, pudiendo solo exportar la informacion de usuario o junto con sus retiros y presentismos."
+                },
+                {
+                    "title": "Supervisores",
+                    "description": "Exporta la informacion de usuario de supervisores especificos."
+                },
+                {
+                    "title": "Presentismo",
+                    "description": "Exporta el presentismo de cursos en especifico"
+                },
+                {
+                    "title": "Retiros",
+                    "description": "Exporta los retiros de cursos en especifico."
+                },
+                {
+                    "title": "Feriados",
+                    "description": "Exporta los feriados existentes en la base de datos."
+                }
+            ],
+            "tables-heading": "Generales (Tablas de bases de datos)",
+            "general-database-tables": [
+                {
+                    "title": "Miembros",
+                    "description": "En las tablas que muestran los miembros se puede exportar la informacion basica de los miembros de cierta division."
+                },
+                {
+                    "title": "Presentismo",
+                    "description": "En las tablas que muestran el presentismo de cierta division, se puede exportar la informacion de estos presentismos, con la posibilidad de filtrar por ciertos miembros."
+                },
+                {
+                    "title": "Retiros",
+                    "description": "En las tablas que muestran los retiros de cierta division, se puede exportar la informacion de estos retiros, con la posibilidad de filtrar por ciertos miembros."
+                }
+            ]
+        },
+        "item-9-3": {
+            "heading": "Roles",
+            "description": "Primoridalmente los roles no dejan de ser usuarios dentro de la aplicacion, por ende comparten ciertas cosas, como por ejemplo el poder modificar su propio nombre, email o contraseña, al mismo tiempo que obligatoriamente para funcionar requieren tener un segundo factor de autenticacion activado. Esto para mejorar la seguridad del sistema",
+            "roles-description": "En stay existen varios roles, cada uno tiene funcionalidades diferentes o capacidades/privilegios diferentes, estos roles son:",
+            "roles": [
+                {
+                    "title": "Miembros",
+                    "description": "Los miembros son todos aquellos que dan o reciben presentismo, pueden unicamente como habilidad adicional a las basicas generar codigos QR para dar presentismo o retirarse de la organizacion.",
+                    "vision": [
+                        {
+                            "img": "/assets/images/Presentism.avif",
+                            "title": "Stay member presentism page"
+                        }
+                    ]
+                },
+                {
+                    "title": "Supervisor",
+                    "description": "Los supervisores tienen la capacidad de analizar y actuar sobre los equipos o divisiones que les fueron asignados, como escanear codigos de miembros, ver las estadisticas del dia, pueden consultar la base de datos de su division asignada y exportar los miembros, el presentismo o retiros de estos, cambiar entre divisiones a visualizar al igual que las estadisticas dadas en la previsualizacion de la base de datos.",
+                    "vision": [
+                        {
+                            "img": "/assets/images/SupervisorDashboard.avif",
+                            "title": "Stay supervisor dashboard page"
+                        },
+                        {
+                            "img": "/assets/images/Attendance.avif",
+                            "title": "Stay attendance supervisor page"
+                        },
+                        {
+                            "img": "/assets/images/SupervisorDatabase.avif",
+                            "title": "Stay supervisor database page"
+                        }
+                    ],
+                    "note-heading": "Nota",
+                    "note": "Los supervisores no pueden modificar las divisiones, esta es solo una accion que puede realizar el becario."
+                },
+                {
+                    "title": "Becario",
+                    "description": "Los Becarios son el principal rol en Stay, es el otorgado (por ahora) por unica vez al desplegar la aplicacion por primera vez, son los encargados de ingresar a la aplicacion las divisiones, miembros, supervisores, presentismos, retiros, feriados, estaciones de escaneo entre otros datos, al mismo tiempo son los encargados de poder modificar toda la informacion de la base de datos y pueden supervisar todas las divisiones y pueden exportar informacion de la base de datos.",
+                    "vision": [
+                        {
+                            "img": "/assets/images/AccountantDatabase.avif",
+                            "title": "Stay accountant database page"
+                        },
+                        {
+                            "img": "/assets/images/AccountantImports.avif",
+                            "title": "Stay accountant imports page"
+                        },
+                        {
+                            "img": "/assets/images/AccountantExports.avif",
+                            "title": "Stay accountant exports page"
+                        },
+                        {
+                            "img": "/assets/images/DivisionSettings.avif",
+                            "title": "Stay division settings page"
+                        },
+                        {
+                            "img": "/assets/images/ScanPage.avif",
+                            "title": "Stay accountant scan stations page"
+                        }
+                    ]
+                },
+                {
+                    "title": "Estacion de escaneo",
+                    "description": "Las estaciones de de escaneo se encargan unicamente de escanear codigos QR, al mismo tiempo solo muestran la camara en utilizacion y los ultimos ingresos (presentismos)",
+                    "vision": [
+                        {
+                            "img": "/assets/images/ScanStation.avif",
+                            "title": "Stay scan station page"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "import": {
+        "heading": "Importar",
+        "table": [
+            {
+                "title": "Equipos",
+                "description": "Importa por completo equipos y usuarios, junto con los horarios y presentismos/retiros"
+            },
+            {
+                "title": "Presentismos",
+                "description": "La cantidad de presentismos dados por el individuo fuera del horario regular"
+            },
+            {
+                "title": "Retiros",
+                "description": "La cantidad de ausentismos del individuo en cuestion"
+            },
+            {
+                "title": "Feriados",
+                "description": "La cantidad de presentismos dados por el individuo fuera del horario regular y del limite tardio"
+            },
+            {
+                "title": "Estaciones de escaneo",
+                "description": "La cantidad de presentismos dados por el individuo fuera del horario regular y del limite tardio"
+            },
+            {
+                "title": "Miembros",
+                "description": "La cantidad de presentismos dados por el individuo fuera del horario regular y del limite tardio"
+            }
+        ],
+        "format-info": "Puedes importar varios elementos de Stay, a continuacion veras el formato de importacion, obligatoriamente tienen que ser en formato excel .xsls, se recomienda siempre que se pueda importar la mayor cantidad de elementos posibles al mismo tiempo que es importante respetar el formato a pie de la letra.",
+        "note-1": {
+            "title": "Nota",
+            "content": "Es muy importante respetar el orden y el formato, las importaciones que requieran varias hojas con nombres especificos, necesitan tener las hojas que no son obligatorias aunque esten vacias. Estando vacias no importaran elementos inecesarios al mismo tiempo que el programa funciona."
+        },
+        "note-2": {
+            "title": "Nota",
+            "content": "Recuerda revisar todos los ID's otorgados, no tienen que coincidir con ningun ID actual en la base de datos o Stay terminara modificando los datos de la base de datos, lo que no queremos que suceda."
+        },
+        "important-formats": "Formatos importantes",
+        "division": {
+            "heading": "Importar equipos",
+            "description": "Para importar equipos son necesarias 6 hojas por archivo excel:",
+            "preceptors": "'Preceptors' (Supervisores):",
+            "courses": "'Courses' (Equipos):",
+            "students": "'Students' (Miembros):",
+            "attendances": "'Attendances' (Presentismo):",
+            "retirements": "'Retirements' (Retiros):",
+            "schedules": "'Schedules' (Horarios):"
+        },
+        "presentism": {
+            "heading": "Importar presentismos",
+            "description": "Para importar presentismos solo es necesaria la siguiente hoja de excel:"
+        },
+        "retirements": {
+            "heading": "Importar retiros",
+            "description": "Para importar retiros solo es necesaria la siguiente hoja de excel:"
+        },
+        "holidays": {
+            "heading": "Importar Feriados",
+            "description": "Para importar feriados solo es necesaria la siguiente hoja de excel:",
+            "holidays": "'Holidays' (Feriados):"
+        },
+        "scan-station": {
+            "heading": "Importar estaciones de escaneo",
+            "description": "Para importar scan points equipos solo es necesaria la siguiente hoja de excel: ",
+            "scan-station": "'Students':"
+        },
+        "members": {
+            "heading": "Importar miembros",
+            "description": "Para importar miembros solo es necesaria la siguiente hoja de excel: "
+        }
+    },
+    "errors": {
+        "errors": "Errores",
+        "warning": "Advertencia",
+        "warning-content": "En caso de persistir el error pese a seguir las recomendaciones en esta seccion, comunicate al email de contacto 'contact@stay.com.ar' con el error en el asunto y responderemos lo antes posible. Stay es una aplicacion en desarrollo, pueden ocasionalmente llegar a ocurrir fallas.",
+        "400-heading": "400 - Bad request",
+        "400-1": "Intenta volver a realizar la accion",
+        "400-2": "Revisa a la URL que esta dirigiendo la accion",
+        "400-3": "Revisa no estar dejando algun dato sin ingresar",
+        "400-4": "Revisa tu conexión a internet",
+        "401-403-heading": "401 - Unauthorized / 403 - Forbidden",
+        "401-403-1": "Revisa que estes autorizado a realizar la accion",
+        "401-403-2": "Revisa que la sesion este bien iniciada, caso contrario cierra la sesion y vuelve a ingresar a Stay",
+        "404-heading": "404 - Not Found",
+        "404-1": "La direccion URL a la que estas accediendo no existe",
+        "404-2": "Intenta volver al inicio (Vuelve a entrar a la aplicacion) y realizar la accion de nuevo",
+        "405-heading": "405 - Method Not Allowed",
+        "405-1": "Estas ingresando a una URL a la que no deberias ingresar normalmente",
+        "409-heading": "409 - Conflict",
+        "409-1": "Revisa los archivos o datos ingresados",
+        "500-heading": "500 - Internal Server Error",
+        "500-1": "Revisa que los datos o archivos ingresados sean correctos",
+        "500-2": "Vuelve a intentar la accion que estabas realizando volviendo a ingresar a la aplicacion",
+        "503-heading": "503 - Service Unavailable",
+        "503-1": "Revisa el estado del servidor",
+        "503-2": "Intenta reiniciar el servidor"
+    },
+    "updates": {
+        "header": "Actualizaciones",
+        "description": "Aqui se encuentran las notas de cambio de cada actualizacion de Stay y la guia de actualizacion de la aplicacion.",
+        "changes": {
+            "header": "Notas de cambio",
+            "description": "1.0.0: Version de lanzamiento 🏂"
+        },
+        "guide": {
+            "header": "Guia de actualizacion",
+            "description": "👀✨"
+        }
+    }
+}
